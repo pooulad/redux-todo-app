@@ -20,6 +20,11 @@
   border: none;
   outline: none;
 }
+.addInput::placeholder {
+  font-family: "Poppins", sans-serif;
+  color: #260c1a;
+  font-weight: 900;
+}
 .addBtn {
   padding: 10px;
   width: 50%;
@@ -28,6 +33,9 @@
   border: none;
   outline: none;
   transition: all 300ms ease;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+
   cursor: pointer;
 }
 .addBtn:hover {
@@ -47,7 +55,7 @@
     flex-direction: row;
   }
   .addInput {
-      margin: 0px 10px;
+    margin: 0px 10px;
     flex: 3;
     padding: 10px;
     border-radius: 10px;
@@ -55,7 +63,7 @@
     outline: none;
   }
   .addBtn {
-      margin: 0px 10px;
+    margin: 0px 10px;
     flex: 1;
     padding: 10px;
     border-radius: 10px;

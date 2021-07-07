@@ -1,0 +1,35 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.todo {
+  background-color: mediumorchid;
+  width: 95%;
+  margin: 20px auto;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.content{
+  margin: 0px 5px;
+  flex: 9;
+  width: 100%;
+  background-color: white;
+  color: black;
+}
+.status{
+  margin: 0px 5px;
+  cursor: pointer;
+  flex: 1;
+  transition: transform 200ms ease;
+}
+.status:hover{
+  transform: scale(1.2);
+}
+#complete{
+  text-decoration-line: line-through;
+  opacity: 0.70;
+}

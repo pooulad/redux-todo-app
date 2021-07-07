@@ -23,6 +23,7 @@ class AddTodo extends Component {
     render() {
         return (
             <div className="addTodo">
+                <h1>Add Todo</h1>
                 <input className="addInput" type="text" value={this.state.input} onChange={this.changeHandler} placeholder="Write Your Todo" />
                 <button className="addBtn" onClick={this.clickHandler}>Add</button>
             </div>
