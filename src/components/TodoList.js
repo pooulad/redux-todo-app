@@ -5,7 +5,7 @@ import Todo from "./Todo";
 
 function TodoList(props) {
     return (
-        <div>
+        <div className="todoList">
             <div>
                 {
                     props.todos && props.todos.length ?
