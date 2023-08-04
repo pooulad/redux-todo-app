@@ -1,3 +1,11 @@
+# update package.json file for run project
+
+just change
+"start": "react-scripts start"
+to
+"start": "react-scripts --openssl-legacy-provider start" 
+
+![image](https://github.com/pooulad/redux-todo-app/assets/86445458/addad901-68e3-4338-b7c9-f698d3700c6b)
 
 
 https://user-images.githubusercontent.com/86445458/124819610-af509080-df81-11eb-8763-e5f61a6552d6.mp4
